@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Netflix" translatesAutoresizingMaskIntoConstraints="NO" id="SGI-es-Ea8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.7843137255" green="0.0" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Eq7-3u-lVH">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Eq7-3u-lVH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="4hN-Bo-tCP"/>
+                            <constraint firstItem="SGI-es-Ea8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="CBe-1F-s5G"/>
+                            <constraint firstItem="Eq7-3u-lVH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="FGP-Uu-pEV"/>
+                            <constraint firstAttribute="bottom" secondItem="SGI-es-Ea8" secondAttribute="bottom" id="OEm-lL-e8O"/>
+                            <constraint firstItem="SGI-es-Ea8" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="TEg-gm-JfB"/>
+                            <constraint firstItem="SGI-es-Ea8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TrM-6k-S0b"/>
+                            <constraint firstItem="Eq7-3u-lVH" firstAttribute="centerY" secondItem="SGI-es-Ea8" secondAttribute="centerY" id="WVp-3X-XxW"/>
+                            <constraint firstItem="Eq7-3u-lVH" firstAttribute="centerX" secondItem="SGI-es-Ea8" secondAttribute="centerX" id="rGU-tX-3Ak"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Netflix" width="2048" height="1152"/>
+        <image name="logo" width="356" height="210"/>
+    </resources>
+</document>
